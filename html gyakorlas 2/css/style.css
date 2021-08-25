@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+body {
+	margin: 0;
+	background: url('../pics/hb-body.jpg') fixed;
+    font-family: 'Raleway', sans-serif;
+}
+* {
+	box-sizing: border-box
+}
+header{
+	background: url('../pics/hb-header.jpg');
+	color: white;
+	font-size:80px;
+	font-weight: 700;
+	padding: 80px 60px;
+	text-shadow: 0 0 20px rgba(0,0,0,.8)
+	
+}
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto
+}
+.content{
+	background: #6495ED
+}
+.content::after ,
+footer::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+nav{
+	width:25%;
+	float: left;
+}
+nav ul {
+	margin: 0;
+	padding: 30px;
+	list-style: none;
+}
+nav ul li {
+	border-bottom: 1px dashed rgba(240, 248, 255);
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 0;
+	display: block;
+}
+nav a:hover {
+    padding: 15px;
+    background: rgba(255,255,255,.1);	
+}
+
+
+main{
+	width:75%; background: white;
+	float: left;
+	padding: 30px;
+	
+}
+main p {
+	line-height:23px;
+}
+
+.float-left{
+	float: left;
+	margin: 0 20px 20px;
+}
+.float-right{
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+footer{
+	padding: 20px 0;
+	
+}
+footer a{
+	color: black;
+}
+footer .left{
+	float: left;
+}
+footer.right{
+	float: right;
+}
+
+h1{
+	margin-top: 0
+}
+
+h1 span {
+	font-size: 50px;
+	background: #483D8B;
+	color: white;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+  border-left: 10px solid #483D8B;
+  border-right: 10px solid #483D8B; 
+  border-bottom: 7px solid #483D8B;
+  line-height: 75px;
+}
